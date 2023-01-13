@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRoboDashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js" integrity="sha512-vRqhAr2wsn+/cSsyz80psBbCcqzz2GTuhGk3bq3dAyytz4J/8XwFqMjiAGFBj+WM95lHBJ9cDf87T3P8yMrY7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <script type='text/javascript' src="index.js"></script>
+    <div class="container">
+        <!-- top bar -->
+        <div class="top">
+            <img id="icon" src="icon_ape.png" alt="icon_ape">
+            <h1 id="dashboard_title">Robo Dashboard</h1>
+        </div>
+        
+        <!-- main area -->
+        <main>
+            <div class="main_video">
+                <video id="video1" width="480" autoplay loop muted>  <!-- controls -->
+                    <source src="JESNet_1.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                <br><br>
+                <button id="vidbutton">Play</button>    
+            </div>
+        </main>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+body{
+    /* display: inline-block; */
+    font-size: 0.88rem;
+}
+
+.container{
+    height: 45rem;
+    /* background-color: red; */
+    padding: 1rem;
+}
+
+.top{
+    display: flex;
+    border: 0.2rem solid gray;
+    gap: 1rem;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: row;
+}
+
+#icon{
+    width: 5rem;
+    height: 5rem;
+}
+
+main{
+    display: flex;
+    /* background-color: green; */
+    border: 0.2rem solid gray;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.main_video{
+    text-align: center;
+}
+
+#video1{
+    border: 0.1rem solid black;
+    padding: 0.5rem;
+}
+
+button{
+    padding: 0.3rem;
+    border-color: black;
+    border-radius: 0.8rem;
+    border: 5rem;
+    font-weight: 900;
+}
+
+h1{
+    text-align: center;
+    background-color: #E72722;
+    border-radius: 7rem;
+    padding: 0.2rem 1.5rem;
+    font-weight: 500;
+    font-size: 3.5rem;
+}
